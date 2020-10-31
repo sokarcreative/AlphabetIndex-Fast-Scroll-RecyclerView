@@ -279,9 +279,8 @@ public class IndexFastScrollRecyclerView extends RecyclerView {
     /**
      * @param color The color for the preview box
      */
-    public void setPreviewColor(@ColorRes int color) {
-        int colorValue = getContext().getResources().getColor(color);
-        mScroller.setPreviewColor(colorValue);
+    public void setPreviewColor(int color) {
+        mScroller.setPreviewColor(color);
     }
 
     /**
@@ -294,9 +293,8 @@ public class IndexFastScrollRecyclerView extends RecyclerView {
     /**
      * @param color The text color for the preview box
      */
-    public void setPreviewTextColor(@ColorRes int color) {
-        int colorValue = getContext().getResources().getColor(color);
-        mScroller.setPreviewTextColor(colorValue);
+    public void setPreviewTextColor(int color) {
+        mScroller.setPreviewTextColor(color);
     }
 
     /**
@@ -323,9 +321,8 @@ public class IndexFastScrollRecyclerView extends RecyclerView {
     /**
      * @param color The color for the index bar
      */
-    public void setIndexBarColor(@ColorRes int color) {
-        int colorValue = getContext().getResources().getColor(color);
-        mScroller.setIndexBarColor(colorValue);
+    public void setIndexBarColor(int color) {
+        mScroller.setIndexBarColor(color);
     }
 
 
@@ -339,9 +336,8 @@ public class IndexFastScrollRecyclerView extends RecyclerView {
     /**
      * @param color The text color for the index bar
      */
-    public void setIndexBarTextColor(@ColorRes int color) {
-        int colorValue = getContext().getResources().getColor(color);
-        mScroller.setIndexBarTextColor(colorValue);
+    public void setIndexBarTextColor(int color) {
+        mScroller.setIndexBarTextColor(color);
     }
 
     /**
@@ -354,9 +350,8 @@ public class IndexFastScrollRecyclerView extends RecyclerView {
     /**
      * @param color The text color for the index bar
      */
-    public void setIndexbarHighLightTextColor(@ColorRes int color) {
-        int colorValue = getContext().getResources().getColor(color);
-        mScroller.setIndexbarHighLightTextColor(colorValue);
+    public void setIndexbarHighLightTextColor(int color) {
+        mScroller.setIndexbarHighLightTextColor(color);
     }
 
     /**
