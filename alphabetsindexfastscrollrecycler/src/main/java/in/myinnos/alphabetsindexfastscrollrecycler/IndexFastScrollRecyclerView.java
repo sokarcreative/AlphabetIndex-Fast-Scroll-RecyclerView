@@ -247,8 +247,17 @@ public class IndexFastScrollRecyclerView extends RecyclerView {
         mScroller.setIndexBarStrokeVisibility(shown);
     }
 
+
     /**
-     * @param color The color for the index bar
+     * @param color The stroke color for the index bar
+     */
+    public void setIndexBarStrokeColor(int color) {
+        mScroller.setIndexBarStrokeColor(color);
+    }
+
+
+    /**
+     * @param color The stroke color for the index bar
      */
     public void setIndexBarStrokeColor(String color) {
         mScroller.setIndexBarStrokeColor(Color.parseColor(color));
